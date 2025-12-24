@@ -1,10 +1,4 @@
-`   <?php include 'includes/header.php'; ?>
-<?php
-/*
-  © 2025 B-TECH
-  All code written and maintained by B-TECH.
-*/
-?>
+<?php include 'includes/header.php'; ?>
 
 <section class="courses-section">
     <div class="container">

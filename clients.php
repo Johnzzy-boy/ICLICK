@@ -1,11 +1,4 @@
 <?php include 'includes/header.php'; ?>
-<?php
-/*
-  © 2025 B-TECH
-  All code written and maintained by B-TECH.
-*/
-?>
-
 
 <section class="clients-section">
     <div class="container">

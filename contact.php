@@ -1,11 +1,6 @@
 <?php
 include 'includes/header.php';
 
-/*
-  © 2025 B-TECH
-  All code written and maintained by B-TECH.
-*/
-
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     include 'includes/db.php';
@@ -24,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $messageClass = "success-message";
         
         // Optional: Send email notification
-        $to = "aggreyjohn298@gmail.com";
+        $to = "info@primevision.com";
         $headers = "From: $email\r\n";
         $headers .= "Reply-To: $email\r\n";
         $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
@@ -102,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                     <div>
                         <h4 style="color: var(--teal); margin-bottom: 5px;">Our Studio</h4>
-                        <p>ACCRA<br>Tetegu, CX 112 5828</p>
+                        <p>123 Media Lane<br>Studio City, CA 91604</p>
                     </div>
                 </div>
                 
@@ -112,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                     <div>
                         <h4 style="color: var(--teal); margin-bottom: 5px;">Phone</h4>
-                        <p>+233 54 954 6079<br>Mon-Fri: 9AM-6PM PST</p>
+                        <p>+1 (555) 123-4567<br>Mon-Fri: 9AM-6PM PST</p>
                     </div>
                 </div>
                 
@@ -122,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                     <div>
                         <h4 style="color: var(--teal); margin-bottom: 5px;">Email</h4>
-                        <p>iClickproduction46@gmail.com<br>support@iClickprodution.com</p>
+                        <p>info@primevision.com<br>support@primevision.com</p>
                     </div>
                 </div>
                 
@@ -138,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 
                 <!-- Embedded Map -->
                 <div style="margin-top: 30px; border-radius: 8px; overflow: hidden;">
-                    <iframe src="https://www.bing.com/ck/a?!&&p=13a33d079c80b63b4240df1984cd35786f8624809ac4e3be470ef35090849e03JmltdHM9MTc2NTkyOTYwMA&ptn=3&ver=2&hsh=4&fclid=15dd2972-8281-6806-106a-3fb6832a6947&psq=tetegu+location+link&u=a1aHR0cHM6Ly9tYXBjYXJ0YS5jb20vTjEyMzMwNzM0OTg3Izp-OnRleHQ9VGV0ZWd1JTIwaXMlMjBhJTIwc3VidXJiJTIwaW4lMjBHYSUyMFNvdXRoJTIwTXVuaWNpcGFsLEdiYXdlJTIwYW5kJTIwV2VpZHphLiUyMFBob3RvJTNBJTIwS3dhbWVnaGFuYSUyQyUyMENDJTIwQlktU0ElMjA0LjAu" 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.453123238287!2d-118.396071324686!3d34.08388807314358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beb5d35d5d5d%3A0x5b47c8c0e0d5b5b5!2sStudio%20City%2C%20Los%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
                             width="100%" 
                             height="200" 
                             style="border:0;" 

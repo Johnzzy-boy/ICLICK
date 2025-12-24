@@ -1,17 +1,11 @@
-<?php include 'includes/header.php'; ?>
-<?php
-/*
-  © 2025 B-TECH
-  All code written and maintained by B-TECH.
-*/
-?>
+<?php include 'header.php'; ?>
 
 <section class="gallery-section">
     <div class="container">
         <h2 class="section-title">Our Gallery</h2>
         
         <?php
-        include 'includes/db.php';
+        include 'db.php';
         
         // Get filter from URL if set
         $filter = isset($_GET['type']) ? $_GET['type'] : 'all';
@@ -72,4 +66,4 @@
     <div class="lightbox-content"></div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
