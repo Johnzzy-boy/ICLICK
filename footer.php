@@ -1,8 +1,13 @@
     <footer>
+        <!--
+  © 2025 B-TECH. All rights reserved.
+  Website developed and maintained by B-TECH.
+-->
+
         <div class="footer-container">
             <div class="footer-section">
-                <h3>MAI CREATIVES</h3>
-                <p>Mai Creatives is a media production company dedicated to creating content that inspires, engages, and converts. From TV commercials to brand documentaries and social-first content, we merge creativity with strategy to deliver work that resonates.</p>
+                <h3>iClick Classic</h3>
+                <p>iClick classic is a media production company dedicated to creating content that inspires, engages, and converts. From TV commercials to brand documentaries and social-first content, we merge creativity with strategy to deliver work that resonates.</p>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
@@ -15,25 +20,25 @@
             </div>
             <div class="footer-section">
                 <h3>Contact Info</h3>
-                <p>Email: info@primevision.com</p>
-                <p>Phone: +1 (555) 123-4567</p>
-                <p>Address: 123 Media Lane, Studio City, CA 91604</p>
-            </div>
             <div class="footer-section">
                 <h3>Follow Us</h3>
                 <div class="social-icons">
-                    <a href="#" class="social-icon">FB</a>
-                    <a href="#" class="social-icon">IG</a>
-                    <a href="#" class="social-icon">YT</a>
-                    <a href="#" class="social-icon">TW</a>
+                    <a href="https://www.tiktok.com/@iclick.classic?is_from_webapp=1&sender_device=pc" class="social-icon">TK</a>
+                    <a href="https://www.instagram.com/iclick.classic/" class="social-icon">IG</a>
+                    <a href="https://www.youtube.com/@iclick.classic?si=R-me3yakMmdPSB4a" class="social-icon">YT</a>
+                   <!--<a href="https://www.x.com/maicreatives.academy?igsh=MWF1NnJ0dTc2cTQ1cw==" class="social-icon">X</a>-->
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; <?php echo date('Y'); ?> PrimeVision Studios. All rights reserved.</p>
+         <p>© <?= date("Y"); ?> <a href="https://b-tech.com" target="_blank" style="color:#FF6F3C; text-decoration:none;">B-TECH</a>. All rights reserved. Developed by B-TECH.</p>
         </div>
     </footer>
-    
+    <!--
+  © 2025 B-TECH. All rights reserved.
+  Website developed and maintained by B-TECH.
+-->
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>

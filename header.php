@@ -13,8 +13,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mai Creatives Production & Advertising</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>iClick Classic</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +22,7 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <a href="index.php">Mai Creatives</a>
+                    <a href="index.php" ><!--<img src="iclick.png" height ="100" width="100"></img>-->iClick Classic</a>
                 </div>
                 <div class="nav-menu">
                     <a href="index.php" class="nav-link">Home</a>
